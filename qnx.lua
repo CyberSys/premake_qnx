@@ -6,7 +6,7 @@ premake.modules.qnx = {}
 local m = premake.modules.qnx
 m._VERSION = "0.0.1"
 
-filter { "configuration:qnx" }
+filter { "configurations:qnx" }
     system("qnx")
     toolset("qnx")
 
